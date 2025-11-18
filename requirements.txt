@@ -1,4 +1,6 @@
-google-adk
-spotipy
-openai
-flask
+google-generativeai>=0.8.5  # Gemini 2.5 Flash agent and NotebookLM
+spotipy>=2.23.0             # Spotify API wrapper
+pandas                      # CSV fallback and data handling
+python-dotenv               # Secret keys via .env
+kaggle                      # Kaggle notebook support
+

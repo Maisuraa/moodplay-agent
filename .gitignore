@@ -1,3 +1,29 @@
-.env
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode
 __pycache__/
+*.py[cod]
 *.pyc
+__pycache__/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore Kaggle datasets (optional if large or private)
+*.zip
+*.tar.gz
+*.csv
+
+# Ignore VSCode or IDE folders
+.vscode/
+.idea/
